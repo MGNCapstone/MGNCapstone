@@ -1,0 +1,68 @@
+body{
+	padding:none;
+}
+
+.ben-photo{
+
+    background-image:url(~/Images/SwingingBridgePhoto.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    opacity:1.0;
+    position:fixed;
+}
+
+.blaine-photo{
+
+    background-image:url(~/Images/BlainePhoto.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    opacity:1.0;
+    position:fixed;    
+}
+
+.home-background{
+	background-color:slategrey;
+}
+
+.photo-space{
+	height:50%;
+    border: 3px solid silver;
+    top:0px;
+    left:0px;
+	margin-bottom:15px;
+}
+
+.personal-image-set{
+	width:100%;
+	height:inherit;
+	border:5px solid silver;
+}
+
+.full-width{
+	width:95%;
+}
+
+.top-nav{
+	/*height:50px;*/
+	border-bottom:2px solid gray;
+	text-align:center;
+	background-color:black;
+	padding: 8px 0px 0px 10px;
+}
+
+.topNav{
+}
+
+.Home-Title{
+	padding-top:75px;
+	font:bold 24px Arial;
+}
+
+.Home-SubTitle{
+	padding-top:15px;
+	font:bold 18px Arial;
+}
+
+.subtitle{
+	display:block;
+}

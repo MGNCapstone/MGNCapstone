@@ -1,0 +1,33 @@
+.pad-sides-25{
+	padding: 0px 25px 0px 25px !important;
+}
+
+.pad-top-10-left-15{
+	padding:0px 0px 8px 15px;
+}
+
+.pad-top-10{
+	padding-top:10px;
+}
+
+.top-nav-btn-margin{
+	margin:8px 15px 0px 0px;
+}
+
+.text-white{
+	color:white;
+}
+
+.margin-bottom-100{
+	 margin-bottom:100px;
+}
+
+.margin-bottom-15{
+	margin-bottom:15px;
+	padding-right:50px;
+}
+
+.pad-top-sides-15{
+	margin:15px 15px 0px 15px;
+}
+

@@ -4,7 +4,7 @@ body{
 
 .ben-photo{
 
-    background-image:url(~/Images/SwingingBridgePhoto.jpg);
+    background-image:url(https://MGNCapstone.github.io/Images/SwingingBridgePhoto.jpg);
     background-repeat:no-repeat;
     background-size:cover;
     opacity:1.0;
@@ -13,7 +13,7 @@ body{
 
 .blaine-photo{
 
-    background-image:url(~/Images/BlainePhoto.jpg);
+    background-image:url(https://MGNCapstone.github.io/Images/BlainePhoto.jpg);
     background-repeat:no-repeat;
     background-size:cover;
     opacity:1.0;

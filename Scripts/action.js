@@ -34,7 +34,6 @@ $(function (){
 	btn2Container.className = "col-md-3 margin-bottom-15";
 	
 	var btn2 = document.createElement("BUTTON");
-	//btn2.href = 'C:/Users/wbcod/sch/P445/Views/DeveloperCrew.html';
 	btn2.type = "Button";
 	btn2.id = 'meetTheDevelopers';
 	btn2.className = "btn btn-default full-width";

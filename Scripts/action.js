@@ -1,4 +1,9 @@
 $(function (){
+	$('#commonHeader').load('https://MGNCapstone.github.io/Headers/CommonHeader.html', function()
+	{
+		alert('should have worked');
+	});
+	
 	//Top Navigation for all pages
 	//Top Navigation Element
 	var navRoot = document.createElement("DIV");
@@ -55,6 +60,6 @@ $(function (){
 		$('#embed-resume').attr({data: resumeLocation});
 	});
 	
-	$('#commonHeader').load('CommonHeader.html');
+	
 
 });

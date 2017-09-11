@@ -54,5 +54,7 @@ $(function (){
 		var resumeLocation = $(this).data('resume');
 		$('#embed-resume').attr({data: resumeLocation});
 	});
+	
+	$('#commonHeader').load('CommonHeader.html');
 
 });

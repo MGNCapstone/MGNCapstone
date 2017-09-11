@@ -55,12 +55,16 @@ body{
 
 .Home-Title{
 	padding-top:75px;
-	font:bold 28px Arial;
+	font:bold 30px Arial;
 }
 
 .Home-SubTitle{
 	padding-top:20px;
-	font:bold 18px Arial;
+	font:bold 24pt Arial;
+}
+
+.Home-Manifesto{
+	font:20pt Arial;
 }
 
 .subtitle{

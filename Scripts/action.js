@@ -6,7 +6,7 @@ $(function () {
     //Top Navigation for all pages
     //Top Navigation Element
     var navRoot = document.createElement("DIV");
-    navRoot.className = "row top-nav text-left pad-top-20";
+    navRoot.className = "row top-nav text-left width-100-pcnt pad-top-20";
     navRoot.styleSheets = "Content/padding.css";
 
     //Home Button

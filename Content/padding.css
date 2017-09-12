@@ -43,3 +43,9 @@
 .width-100-pcnt{
     width:100%;
 }
+
+.menu-style{
+    white-space:nowrap;
+    padding:0;
+    margin:0;
+}

@@ -11,7 +11,7 @@ $(function () {
 
     //Home Button
     var btn0Container = document.createElement("DIV");
-    btn0Container.className = "col-md-2 text-left margin-bottom-15";
+    btn0Container.className = "col-md-2 col-sm-4 text-left margin-bottom-15";
 
     var btn0 = document.createElement("a");
     btn0.href = '#';
@@ -23,7 +23,7 @@ $(function () {
 
     //Resume Button
     var btn1Container = document.createElement("DIV");
-    btn1Container.className = "col-md-2 text-left margin-bottom-15 no-padding";
+    btn1Container.className = "col-md-2 col-sm-4 text-left margin-bottom-15";
 
     var btn1 = document.createElement("a");
     btn1.href = '#';
@@ -35,7 +35,7 @@ $(function () {
 
     //Developer Crew Button
     var btn2Container = document.createElement("DIV");
-    btn2Container.className = "col-md-2 text-left margin-bottom-15";
+    btn2Container.className = "col-md-2 col-sm-4 text-left margin-bottom-15";
 
     var btn2 = document.createElement("a");
     btn2.href = "#"

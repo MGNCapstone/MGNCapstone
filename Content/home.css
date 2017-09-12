@@ -45,21 +45,18 @@ body{
 .top-nav{
 	/*height:50px;*/
 	border-bottom:2px solid gray;
-	text-align:center;
+	/*text-align:center;*/
 	background-color:black;
-	padding: 8px 0px 0px 10px;
-}
-
-.topNav{
+	padding: 8px 0px 0px 50px;
 }
 
 .Home-Title{
-	padding-top:75px;
+	padding-top:25px;
 	font:bold 24px Arial;
 }
 
 .Home-SubTitle{
-	padding-top:20px;
+	padding-top:15px;
 	font:bold 18pt Arial;
 }
 
@@ -69,4 +66,18 @@ body{
 
 .subtitle{
 	display:block;
+}
+
+.font-18{
+    font:12pt Arial;
+}
+
+.top-nav-link:hover{
+    color:white;
+    text-decoration:none;
+}
+
+.top-nav-link:checked{
+    color:white;
+    text-decoration:none;
 }

@@ -18,7 +18,7 @@ $(function () {
     btn0.id = "showResume";
     btn0.className = "text-white font-18 top-nav-link";
     btn0.innerHTML = "MGN Team";
-    btn0.onclick = function () { window.location.replace("HomeTest.html"); };
+    btn0.onclick = function () { window.location.replace("Home.html"); };
     btn0Container.appendChild(btn0);
 
     //Resume Button
@@ -30,7 +30,7 @@ $(function () {
     btn1.id = "showResume";
     btn1.className = "text-white font-18 top-nav-link";
     btn1.innerHTML = "View Resumes";
-    btn1.onclick = function () { window.location.replace("ResumesTest.html"); };
+    btn1.onclick = function () { window.location.replace("Resumes.html"); };
     btn1Container.appendChild(btn1);
 
     //Developer Crew Button
@@ -42,7 +42,7 @@ $(function () {
     btn2.id = 'meetTheDevelopers';
     btn2.className = "text-white font-18 top-nav-link";
     btn2.innerHTML = "Team Members";
-    btn2.onclick = function () { window.location.replace("DeveloperCrewTest.html"); };
+    btn2.onclick = function () { window.location.replace("DeveloperCrew.html"); };
     btn2Container.appendChild(btn2);
 
     navRoot.appendChild(btn0Container);

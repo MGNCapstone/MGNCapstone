@@ -11,7 +11,7 @@ $(function () {
 
     //Home Button
     var btn0Container = document.createElement("DIV");
-    btn0Container.className = "col-md-2 col-sm-4 text-left margin-bottom-15";
+    btn0Container.className = "col-md-4 col-sm-6 text-left margin-bottom-15";
 
     var btn0 = document.createElement("a");
     btn0.href = '#';

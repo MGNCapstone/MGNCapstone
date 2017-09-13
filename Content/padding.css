@@ -18,6 +18,14 @@
 	color:white;
 }
 
+.text-light-blue{
+    color:firebrick;
+}
+
+.margin-top-10{
+    margin-top:20px;
+}
+
 .margin-bottom-100{
 	 margin-bottom:100px;
 }
@@ -31,23 +39,21 @@
 	margin:15px 15px 0px 15px;
 }
 
+.pad-top-20{
+    padding-top:20px;
+}
+
 .about-tiles{
 	font:14pt Arial;
 }
 
 .resume-click{
-	width:300px;
+	width:200px;
 	height:40px;
 }
 
-.width-100-pcnt{
-    width:100%;
-    margin:0;
-    padding:0;
-}
-
-.menu-style{
-    white-space:nowrap;
-    padding:0;
-    margin:0;
+.table-cell-center{
+    padding:10px 10px 10px 10px !important;
+    vertical-align:middle;
+    text-align:center;
 }

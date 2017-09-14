@@ -97,19 +97,19 @@ body{
     text-decoration:underline;
 }
 
-.top-nav-link:link{
+a:link{
   color:white;
 }
-.top-nav-link:visited{
+a:visited{
   color:white;
 }
-.top-nav-link:hover{
+a:hover{
   color:white;
 }
-.top-nav-link:focus{
+a:focus{
   color:white;
 }
-.top-nav-link:active{
+a:active{
   color:white;
 }
 

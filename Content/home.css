@@ -97,20 +97,41 @@ body{
     text-decoration:underline;
 }
 
-a:link{
+.resume-click:link{
   color:white;
 }
-a:visited{
+.resume-click:visited{
   color:white;
 }
-a:hover{
+.resume-click:hover{
   color:white;
 }
-a:focus{
+.resume-click:focus{
   color:white;
 }
-a:active{
+.resume-click:active{
   color:white;
+}
+
+.top-nav-link:link{
+  color:white;
+  text-decoration:none;
+}
+.top-nav-link:visited{
+  color:white;
+  text-decoration:none;
+}
+.top-nav-link:hover{
+  color:white;
+  text-decoration:none;
+}
+.top-nav-link:focus{
+  color:white;
+  text-decoration:none;
+}
+.top-nav-link:active{
+  color:white;
+  text-decoration:none;
 }
 
 .hide-horizontal-scroll {

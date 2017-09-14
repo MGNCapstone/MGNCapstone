@@ -6,12 +6,13 @@ $(function () {
     //Top Navigation for all pages
     //Top Navigation Element
     var navRoot = document.createElement("DIV");
-    navRoot.className = "row top-nav text-left width-100-pcnt pad-top-20";
+    navRoot.className = "row no-padding top-nav text-left hide-horizontal-scroll";
     navRoot.styleSheets = "Content/padding.css";
 
     //Home Button
     var btn0Container = document.createElement("DIV");
     btn0Container.className = "col-md-4 col-sm-6 text-left margin-bottom-15";
+    btn0Container.style = "overflow-x:hidden";
 
     var btn0 = document.createElement("a");
     btn0.href = '#';
@@ -49,9 +50,9 @@ $(function () {
     //navRoot.appendChild(btn1Container);
     //navRoot.appendChild(btn2Container);
 
-    var topNav = document.getElementsByClassName("topNav");
-    document.body.prepend(navRoot);
-
+    //document.body.prepend(btn0Container);
+    
+    ////THIS IS NOT CURRENTLY NEEDED BUT LEFT FOR POSSIBLE FUTURE REF
     //On document load, add click function to 'resume-click' class elements 
     //use this to get data-resume value, which is the directory to the clicked for resume
     $('.resume-click').click(function () {

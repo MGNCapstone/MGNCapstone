@@ -54,8 +54,9 @@ body{
 	/*height:50px;*/
 	border-bottom:2px solid gray;
 	/*text-align:center;*/
+    width:100%;
 	background-color:black;
-	padding: 8px 0px 0px 50px;
+	padding: 8px 0px 0px 0px;
 }
 
 .Home-Title{
@@ -80,34 +81,38 @@ body{
     font:12pt Arial;
 }
 
-.top-nav-link:hover{
+.top-nav-link:hover {
     color:white;
     text-decoration:none;
 }
 
-.top-nav-link:checked{
+.top-nav-link:checked {
     color:white;
     text-decoration:none;
 }
 
-.resume-click{
+.resume-click {
     font-style:italic;
     color:white;
     text-decoration:underline;
 }
 
-.resume-click:link{
+.top-nav-link:link{
   color:white;
 }
-.resume-click:visited{
+.top-nav-link:visited{
   color:white;
 }
-.resume-click:hover{
+.top-nav-link:hover{
   color:white;
 }
-.resume-click:focus{
+.top-nav-link:focus{
   color:white;
 }
-.resume-click:active{
+.top-nav-link:active{
   color:white;
+}
+
+.hide-horizontal-scroll {
+    overflow-x:hidden !important;
 }

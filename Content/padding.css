@@ -31,16 +31,23 @@
 }
 
 .margin-bottom-15{
+    margin-top:15px;
 	margin-bottom:15px;
-	padding-right:50px;
+	padding-right:0px;
 }
 
 .pad-top-sides-15{
 	margin:15px 15px 0px 15px;
 }
 
+.pad-top-bottom-20{
+    padding:20px 0px 20px 0px;
+}
+
 .pad-top-20{
     padding-top:20px;
+    padding-left:0px;
+    padding-right:0px;
 }
 
 .about-tiles{

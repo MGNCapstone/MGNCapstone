@@ -6,6 +6,12 @@ body{
     body{
         font-size:18pt;
     }
+    body{
+        font:bold 24pt Arial;
+    }
+    .resume-click{
+        color:#18c4ec;
+    }
 }
 
 .ben-photo{
@@ -23,6 +29,14 @@ body{
     background-size:cover;
     opacity:1.0;
     position:fixed;
+
+    width:100%;
+    height:100%;
+    border: 1px solid black;
+    top:30px;
+    left:0px;
+    overflow:auto;
+    overflow-y:scroll;
 }
 
 .blaine-photo{

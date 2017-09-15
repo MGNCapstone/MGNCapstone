@@ -33,7 +33,7 @@ body{
     width:100%;
     height:100%;
     border: 1px solid black;
-    top:30px;
+    top:60px;
     left:0px;
     overflow:auto;
     overflow-y:scroll;
@@ -113,12 +113,12 @@ body{
 
 .resume-click {
     font-style:italic;
-    color:white;
+    color:#18c4ec;
     text-decoration:underline;
 }
 
 .resume-click:link{
-  color:white;
+  color:#18c4ec;
 }
 .resume-click:visited{
   color:white;

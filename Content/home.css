@@ -126,12 +126,13 @@ body{
 .resume-click:hover{
   color:white;
 }
+/*
 .resume-click:focus{
   color:white;
 }
 .resume-click:active{
   color:white;
-}
+}*/
 
 .top-nav-link:link{
   color:white;

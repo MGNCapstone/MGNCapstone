@@ -1,13 +1,11 @@
 body{
 	padding:0px 0px 80px 0px;
+    font-family: 'FontAwesome' !important;
 }
 
 @media screen and (max-width: 640px){
     body{
         font-size:18pt;
-    }
-    body{
-        font:bold 28pt Arial;
     }
     .resume-click{
         color:#18c4ec;
@@ -33,7 +31,7 @@ body{
     width:100%;
     height:100%;
     border: 1px solid black;
-    top:40px;
+    top:50px;
     left:0px;
     overflow:auto;
     overflow-y:scroll;
@@ -82,12 +80,9 @@ body{
 }
 
 .top-nav{
-	/*height:50px;*/
 	border-bottom:2px solid gray;
-	/*text-align:center;*/
-    /*width:100%;*/
-	background-color:black;
-	padding:15px 0px 15px 20px;
+	background-color:#000000;
+	padding:15px 0px 25px 20px;
 }
 
 .Home-Title{
@@ -109,7 +104,15 @@ body{
 }
 
 .font-18{
-    font:12pt Arial;
+    font-size:12pt;
+}
+
+.fa {
+    font-family: 'FontAwesome' !important;
+}
+
+.fa-var-home{
+    font-family: 'FontAwesome' !important;
 }
 
 .top-nav-link:hover {

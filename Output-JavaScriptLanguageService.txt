@@ -1,0 +1,1 @@
+﻿12:35:42.1475: Downloading of remote references for files in the miscellaneous files project is disabled.  To enable downloading of remote references, check the appropriate option in Tools | Options | Text Editor | JavaScript | IntelliSense.

@@ -2,7 +2,6 @@ body{
 	/*padding:0;*/
     margin:0;
     font-family: 'FontAwesome' !important;
-    overflow-x:scroll;
 }
 
 @media screen and (max-width: 640px){
@@ -164,6 +163,20 @@ body{
   color:white;
 }
 .resume-blaine:hover{
+  color:white;
+}
+
+#resume-blaine-download{
+    color:#18c4ec;
+}
+
+#resume-blaine-download:link{
+  color:#18c4ec;
+}
+.resume-blaine-download:visited{
+  color:white;
+}
+.resume-blaine-download:hover{
   color:white;
 }
 

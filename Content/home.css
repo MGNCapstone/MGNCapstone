@@ -108,7 +108,16 @@ body{
 }
 
 .font-18{
-    font-size:12pt;
+    font-size:18pt;
+}
+
+.text-white{
+	color:#ffffff;
+    font-weight:700;
+}
+
+.text-light-blue{
+    color:firebrick;
 }
 
 .fa {

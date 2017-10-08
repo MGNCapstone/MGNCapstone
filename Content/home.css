@@ -221,3 +221,59 @@ body{
 .allow-scroll-x{
     overflow-x:scroll !important;
 }
+
+.expando{
+    border:1px solid white;
+    font-size:10px;
+    padding:5px;
+    color:white;
+}
+.expando:hover{
+    color:white;
+    text-decoration:none;
+}
+.expando:link{
+    color:white;
+    text-decoration:none;
+}
+.expando:visited{
+    color:white;
+    text-decoration:none;
+}
+.expando:focus{
+    color:white;
+    text-decoration:none;
+}
+.expando:active{
+    color:white;
+    text-decoration:none;
+}
+
+.all-in-line{
+    white-space:nowrap;
+}
+
+.plain-page-link:hover{
+    color:white;
+    text-decoration:underline;
+}
+.plain-page-link:link{
+    color:white;
+    text-decoration:underline;
+}
+.plain-page-link:visited{
+    color:white;
+    text-decoration:underline;
+}
+.plain-page-link:focus{
+    color:white;
+    text-decoration:underline;
+}
+.plain-page-link:active{
+    color:white;
+    text-decoration:underline;
+}
+
+.bordered-element-1{
+    border:2px solid white;
+}

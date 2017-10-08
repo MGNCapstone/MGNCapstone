@@ -22,6 +22,22 @@ $(function () {
     btn0.onclick = function () { window.location.replace("Home.html"); };
     btn0Container.appendChild(btn0);
 
+    var elemVisible = true;
+    $('.expando').click(function () {
+        var bodyId = $(this).data('body');
+        var thisId = $(this).data('element');
+        
+        if (elemVisible) {
+            $('#' + bodyId).hide(500);
+            $('#' + thisId).html('expand');
+            elemVisible = false;
+        }
+        else {
+            $('#' + bodyId).show(500);
+            $('#' + thisId).html('collapse');
+            elemVisible = true;
+        }
+    });
     
     $('.resume-click').click(function () {
         var resumeLocation = $(this).data('resume');

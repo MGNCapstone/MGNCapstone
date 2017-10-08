@@ -4,11 +4,12 @@
     <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 
     <head>
-        <link href="https://MGNCapstone.github.io/Content/home.css" rel="stylesheet" type="text/css" />
-        <link href="https://MGNCapstone.github.io/Content/padding.css" rel="stylesheet" type="text/css" />
+        <link href="C:/Users/wbcod/sch/P445/Content/home.css" rel="stylesheet" type="text/css" />
+        <link href="C:/Users/wbcod/sch/P445/Content/padding.css" rel="stylesheet" type="text/css" />
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
         <script src="https://code.jquery.com/jquery-1.9.1.min.js" type="text/javascript"></script>
+        <script src="C:/Users/wbcod/sch/P445/Scripts/action.js" type="text/javascript"></script>
     </head>
 
     <body style="margin:0;padding:0;overflow-x:hidden;background-color:#000000 !important;">
@@ -94,18 +95,27 @@
                             <table class="table-responsive table-bordered table-centered text-white" style="width:100%">
                                 <thead>
                                     <tr>
-                                        <th>Project Status</th>
-                                        <th>Updated On</th>
+                                        <th class="pad-content-table-cells">
+                                            <a href="#" id="projectStatus" class="expando" data-body="bodyProjectStatus" data-element="projectStatus">collapse</a>
+                                            Project Status
+                                        </th>
+                                        <th class="pad-content-table-cells">
+                                            Updated On
+                                        </th>
                                     </tr>
                                 </thead>
-                                <tbody>
+                                <tbody id="bodyProjectStatus">
                                     <tr>
-                                        <td>We have met with our stakeholder and are working to align our goals with stakeholder expectation.</td>
-                                        <td>09/18/2017</td>
+                                        <td class="pad-content-table-cells">We have met with our stakeholder and are working to align our goals with stakeholder expectation.</td>
+                                        <td class="pad-content-table-cells">09/18/2017</td>
                                     </tr>
                                     <tr>
-                                        <td><a href="https://github.com/MGNCapstone/MGNCapstone.github.io/blob/master/DocumentPages/MonthlyReports/9-17-monthly-report.pdf" target="_blank" class="text-white underline-text" style="text-decoration:underline">Monthly Report for Sep 2017</a></td>
-                                        <td>09/29/2017</td>
+                                        <td class="pad-content-table-cells">
+                                            <a href="https://github.com/MGNCapstone/MGNCapstone.github.io/blob/master/DocumentPages/MonthlyReports/9-17-monthly-report.pdf" target="_blank" class="text-white underline-text plain-page-link" style="text-decoration:underline">Monthly Report for Sep 2017</a>
+                                        </td>
+                                        <td class="pad-content-table-cells">
+                                            09/29/2017
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td></td>
@@ -116,8 +126,20 @@
                     </div>
 
                     <div class="row">
+                        <div class="col-lg-12" >
+                            
+                        </div>
                         <div class="col-lg-12" style="margin-top:60px">
-                            <iframe style="width:100%;min-height:450px" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRpVlRYwkaVK6spwLDAKKtaJJB4Euzks0k_zfG8kaW3YqtCblRyJKwVLsWZRM92SPJ0MwTJgrEO4owJ/pubhtml?widget=true&amp;headers=false"></iframe>
+                            <div class="col-lg-12 bordered-element-1">
+                                <a id="timeSheetHead" class="col-lg-1 expando all-in-line" href="#" data-body="timeSheet" data-element="timeSheetHead" style="white-space:nowrap">
+                                    collapse
+                                </a>
+                                <div class="col-lg-6 text-white all-in-line" style="white-space:nowrap">
+                                    Time Sheets
+                                </div>
+                            </div>
+                            
+                            <iframe id="timeSheet" style="width:100%;min-height:450px" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRpVlRYwkaVK6spwLDAKKtaJJB4Euzks0k_zfG8kaW3YqtCblRyJKwVLsWZRM92SPJ0MwTJgrEO4owJ/pubhtml?widget=true&amp;headers=false"></iframe>
                         </div>
                     </div>
 
@@ -126,13 +148,28 @@
                             <table class="table-responsive table-bordered table-centered text-white" style="width:100%">
                                 <thead>
                                     <tr>
-                                        <th>Software Tools Being Employed by MGN </th>
+                                        <th class="pad-content-table-cells">
+                                            <a href="#" id="toolsEmployed" class="expando" data-body="bodyToolsEmployed" data-element="toolsEmployed">collapse</a>
+                                            Software Tools Being Employed by MGN 
+                                        </th>
                                     </tr>
                                 </thead>
-                                <tbody>
-                                    <tr><td>Node.js</td></tr>
-                                    <tr><td>Google Actions SDK</td></tr>
-                                    <tr><td>AVA JavaScript Unit Testing tool</td></tr>
+                                <tbody id="bodyToolsEmployed">
+                                    <tr>
+                                        <td class="pad-content-table-cells">
+                                            Node.js
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="pad-content-table-cells">
+                                            Google Actions SDK
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="pad-content-table-cells">
+                                            AVA JavaScript Unit Testing tool
+                                        </td>
+                                    </tr>
                                 </tbody>
                             </table>
                         </div>
@@ -145,12 +182,23 @@
                             <table class="table-responsive table-bordered table-centered text-white" style="width:100%">
                                 <thead>
                                     <tr>
-                                        <th>Software Tools Being Installed by MGN </th>
+                                        <th class="pad-content-table-cells">
+                                            <a href="#" id="toolsInstalled" class="expando" data-body="bodyToolsInstalled" data-element="toolsInstalled">collapse</a>
+                                            Software Tools Being Installed by MGN 
+                                        </th>
                                     </tr>
                                 </thead>
-                                <tbody>
-                                    <tr><td>Node.js</td></tr>
-                                    <tr><td>AVA JavaScript Testing tool</td></tr>
+                                <tbody id="bodyToolsInstalled">
+                                    <tr>
+                                        <td class="pad-content-table-cells">
+                                            Node.js
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="pad-content-table-cells">
+                                            AVA JavaScript Testing tool
+                                        </td>
+                                    </tr>
                                 </tbody>
                             </table>
                         </div>

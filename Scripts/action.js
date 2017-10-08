@@ -21,21 +21,22 @@ $(function () {
     btn0.innerHTML = "Team MGN - Indiana University Southeast CS Capstone";
     btn0.onclick = function () { window.location.replace("Home.html"); };
     btn0Container.appendChild(btn0);
-
-    var elemVisible = true;
+    
+    //Show/Hide table body content
     $('.expando').click(function () {
         var bodyId = $(this).data('body');
         var thisId = $(this).data('element');
+        var isVisible = $(this).data('bool');
         
-        if (elemVisible) {
+        if (isVisible) {
             $('#' + bodyId).hide(500);
             $('#' + thisId).html('expand');
-            elemVisible = false;
+            $(this).data('bool', false);
         }
         else {
             $('#' + bodyId).show(500);
             $('#' + thisId).html('collapse');
-            elemVisible = true;
+            $(this).data('bool', true);
         }
     });
     

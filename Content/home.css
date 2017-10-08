@@ -147,27 +147,27 @@ body{
 .resume-click:link{
   color:#18c4ec;
 }
-.resume-click:visited{
-  color:white;
-}
+/*.resume-click:visited{
+  color:#000000;
+}*/
 .resume-click:hover{
-  color:white;
+  color:#ffffff;
 }
-/*
+
 .resume-click:focus{
   color:white;
 }
 .resume-click:active{
   color:white;
-}*/
+}
 
-#resume-blaine{
+/*#resume-blaine{
     color:#18c4ec;
 }
 
 #resume-blaine:link{
   color:#18c4ec;
-}
+}*/
 .resume-blaine:visited{
   color:white;
 }
@@ -175,13 +175,13 @@ body{
   color:white;
 }
 
-#resume-blaine-download{
+/*#resume-blaine-download{
     color:#18c4ec;
 }
 
 #resume-blaine-download:link{
   color:#18c4ec;
-}
+}*/
 .resume-blaine-download:visited{
   color:white;
 }
@@ -224,7 +224,7 @@ body{
 
 .expando{
     border:1px solid white;
-    font-size:10px;
+    font-size:11px;
     padding:5px;
     color:white;
 }
@@ -276,4 +276,16 @@ body{
 
 .bordered-element-1{
     border:2px solid white;
+}
+
+.bold-arial-18{
+    font:bold 18px arial;
+    color:#ffffff;
+}
+
+.custom-faux-table-head{
+    border:3px solid #ffffff;
+}
+.custom-matching-act-tbl-hd{
+    border:2px solid #ffffff;
 }

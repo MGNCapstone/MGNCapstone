@@ -72,3 +72,9 @@
 .pad-content-table-cells{
     padding:.8em 1em .8em 1em;
 }
+
+legend{
+    padding:0 0 0 1.2em !important;
+    border-bottom:0.1px solid #ffffff;
+    color:#ffffff;
+}

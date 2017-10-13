@@ -300,3 +300,10 @@ body{
      opacity:.8;
      padding-bottom:10px;
 }
+
+.mgn-tbl-stripe tr:nth-child(even){
+  background-color: #ABA8A6;
+}
+.mgn-tbl-stripe tr:nth-child(odd){
+  background: #858585;
+}

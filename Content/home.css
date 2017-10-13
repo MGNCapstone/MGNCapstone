@@ -274,17 +274,14 @@ body{
     text-decoration:underline;
 }
 
-.bordered-element-1{
-    border:2px solid white;
-}
-
 .bold-arial-18{
     font:bold 18px arial;
     color:#ffffff;
 }
 
 .custom-faux-table-head{
-    border:3px solid #ffffff;
+    border:2px solid #ffffff;
+    background-color:#858585;
 }
 .custom-matching-act-tbl-hd{
     border:2px solid #ffffff;
@@ -305,5 +302,8 @@ body{
   background-color: #ABA8A6;
 }
 .mgn-tbl-stripe tr:nth-child(odd){
-  background: #858585;
+  background-color: #858585;
+}
+.div-tbl-head{
+  background-color: #858585;
 }

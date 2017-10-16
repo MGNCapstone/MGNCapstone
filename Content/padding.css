@@ -73,6 +73,18 @@
     padding:.8em 1em .8em 1em;
 }
 
+/*@media screen and (max-width:640px){
+    .pad-content-table-cells{
+        padding:0.8em 1em 0.8em 1em;
+    }
+}
+
+@media screen and (min-width:640px){
+    .pad-content-table-cells{
+        padding:0 0 0 0;
+    }
+}*/
+
 legend{
     padding:0 0 0 1.2em !important;
     border-bottom:0.1px solid #ffffff;

@@ -90,3 +90,15 @@ legend{
     border-bottom:0.1px solid #ffffff;
     color:#ffffff;
 }
+
+.center-align{
+    text-align:center;
+}
+
+.nav-pad-for-btn{
+    padding:0.5em 0.4em 0px 0px;
+}
+
+.nav-pad-for-link{
+    padding:0.9em 0.4em 0px 0px;
+}

@@ -45,6 +45,15 @@ $(function () {
         $('#embed-resume').attr({ data: resumeLocation });
     });
 
+    $('#toggle-btn').click(function () {
+        $('#hamburger-collapse').toggle(700);
+        //$('#hamburger-collapse').attr('style', 'display:block');
+    });
 
+    $('.mgn-nav').click(function () {
+        var url = $(this).data('url');
+        var openAt = $(this).data('openat');
 
+        window.open(url, "_" + openAt);
+    });
 });

@@ -4,7 +4,7 @@ body{
     font-family: 'FontAwesome' !important;
 }
 
-@media screen and (max-width: 640px){
+@media screen and (max-width: 740px){
     #hamburger-collapse{
         display:none;
     }
@@ -20,7 +20,7 @@ body{
     }
 }
 
-@media screen and (min-width: 640px){
+@media screen and (min-width: 740px){
     #hamburger-collapse{
         display:inline-block;
     }

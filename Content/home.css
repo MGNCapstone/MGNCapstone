@@ -28,7 +28,7 @@ body{
         display:none;
     }
     .expando{
-        font-size:0.8em;
+        font-size:0.9em;
     }
 }
 
@@ -244,7 +244,7 @@ body{
 .expando{
     border:1px solid white;
     padding:5px;
-    color:white;
+    color:#ffffff;
 }
 .expando:hover{
     color:white;

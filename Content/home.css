@@ -240,7 +240,7 @@ body{
 
 .expando{
     border:1px solid white;
-    font-size:10px !important;
+    font-size:0.6em !important;
     padding:5px;
     color:white;
 }

@@ -116,7 +116,7 @@ body{
 }
 
 .Home-Manifesto{
-	font:16pt Arial;
+	font:0.9em Arial;
 }
 
 .subtitle{
@@ -240,7 +240,7 @@ body{
 
 .expando{
     border:1px solid white;
-    font-size:11px !important;
+    font-size:10px !important;
     padding:5px;
     color:white;
 }
@@ -291,7 +291,7 @@ body{
 }
 
 .bold-arial-18{
-    font:bold 18px arial;
+    font:bold 12px arial;
     color:#ffffff;
 }
 

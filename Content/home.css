@@ -11,10 +11,10 @@ body{
     #toggle-btn{
         display:inline;
     }
-
-    body{
-        font-size:18pt;
+    .expando{
+        font-size:0.6em;
     }
+    
     .resume-click{
         color:#18c4ec;
     }
@@ -26,6 +26,9 @@ body{
     }
     #toggle-btn{
         display:none;
+    }
+    .expando{
+        font-size:0.8em;
     }
 }
 
@@ -240,7 +243,6 @@ body{
 
 .expando{
     border:1px solid white;
-    font-size:0.65em !important;
     padding:5px;
     color:white;
 }

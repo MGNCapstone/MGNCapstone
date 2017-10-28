@@ -1,19 +1,24 @@
-.pad-sides-25{
-	padding: 0px 25px 0px 25px !important;
+ /***  a   ***/
+.about-tiles{
+	font:14pt Arial;
 }
 
-.pad-top-10-left-15{
-	padding:0px 0px 8px 15px;
+
+ /***  c   ***/
+.center-align{
+    text-align:center;
 }
 
-.pad-top-10{
-	padding-top:10px;
+
+ /***  l   ***/
+legend{
+    padding:0 0 0 1.2em !important;
+    border-bottom:0.1px solid #ffffff;
+    color:#ffffff;
 }
 
-.top-nav-btn-margin{
-	margin:8px 15px 0px 0px;
-}
 
+ /***  m   ***/
 .margin-top-10{
     margin-top:20px;
 }
@@ -36,6 +41,42 @@
     margin-left:10px;
 }
 
+
+ /***  n   ***/
+.nav-pad-for-btn{
+    padding:0.5em 0.4em 0px 0px;
+}
+
+.nav-pad-for-link{
+    padding:0.9em 0.9em 0px 0px;
+}
+
+.nav-font-size-link{
+    font-size:1.2em;
+}
+
+
+ /***  p   ***/
+.pad-content-table-cells{
+    padding:.8em 1em .8em 1em;
+}
+
+.top-nav-btn-margin{
+	margin:8px 15px 0px 0px;
+}
+
+.pad-sides-25{
+	padding: 0px 25px 0px 25px !important;
+}
+
+.pad-top-10-left-15{
+	padding:0px 0px 8px 15px;
+}
+
+.pad-top-10{
+	padding-top:10px;
+}
+
 .pad-top-sides-15{
 	margin:15px 15px 0px 15px;
 }
@@ -50,59 +91,22 @@
     padding-right:0px;
 }
 
-.about-tiles{
-	font:14pt Arial;
-}
 
+ /***  r   ***/
 .resume-click{
 	width:200px;
 	height:40px;
 }
 
+ /***  t   ***/
 .table-cell-center{
     padding:10px 10px 10px 10px !important;
     vertical-align:middle;
     text-align:center;
 }
 
+
+ /***  u   ***/
 .underline-text{
     text-decoration:underline;
-}
-
-.pad-content-table-cells{
-    padding:.8em 1em .8em 1em;
-}
-
-/*@media screen and (max-width:640px){
-    .pad-content-table-cells{
-        padding:0.8em 1em 0.8em 1em;
-    }
-}
-
-@media screen and (min-width:640px){
-    .pad-content-table-cells{
-        padding:0 0 0 0;
-    }
-}*/
-
-legend{
-    padding:0 0 0 1.2em !important;
-    border-bottom:0.1px solid #ffffff;
-    color:#ffffff;
-}
-
-.center-align{
-    text-align:center;
-}
-
-.nav-pad-for-btn{
-    padding:0.5em 0.4em 0px 0px;
-}
-
-.nav-pad-for-link{
-    padding:0.9em 0.9em 0px 0px;
-}
-
-.nav-font-size-link{
-    font-size:1.2em;
 }

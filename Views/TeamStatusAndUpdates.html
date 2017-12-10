@@ -1,0 +1,280 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width">
+    <link href="https://MGNCapstone.github.io/Content/home.css" rel="stylesheet" type="text/css" />
+    <link href="https://MGNCapstone.github.io/Content/padding.css" rel="stylesheet" type="text/css" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+
+    <title></title>
+</head>
+<body class="footer-background body-scroll-none">
+    <nav class="navbar-inverse navbar-fixed-top footer-background" style="width:100%;background-color:black;">
+        <div class="container footer-background width-100pct">
+            <div class="navbar-header visible-sm visible-xs">
+                <button id="toggle-btn" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#hamburger-collapse">
+                    <span class="sr-only">Toggle nav</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <!--Collect the nav links, forms, and other content for toggling-->
+            <div id="hamburger-collapse" class="collapsed navbar-collapse">
+                <ul class="navbar navbar-nav center-align">
+                    <li class="btn-group-vertical nav-pad-for-link center-align" style="display:block">
+
+                        <a href="https://MGNCapstone.github.io/Views/mgnindex.html" class="center-align nav-font-size-link">
+                            <span class="glyphicon glyphicon-home" style="color:white;margin-right:4px"></span>Home
+                        </a>
+                    </li>
+                    <li class="nav-pad-for-btn center-align" style="display:block">
+                        <button id="P445-home" class="btn btn-default margin-left-10 mgn-nav" data-url="http://ada.ius.edu/~P445" data-openat="self">IUS Capstone Home</button>
+                    </li>
+                    <li class="nav-pad-for-btn center-align" style="display:block">
+                        <button id="group-logs" class="btn btn-default margin-left-10 mgn-nav" data-url="https://trello.com/b/XV5Bl5ft/team-mgn-project-log" data-openat="blank">Team Logs</button>
+                    </li>
+                    <li class="nav-pad-for-btn center-align" style="display:block">
+                        <button id="gantt-chart" class="btn btn-default margin-left-10 mgn-nav" data-url="https://MGNCapstone.github.io/Views/gantt.html" data-openat="self">Gantt Chart</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="row phased-photo set-page-top scroll-y-allow">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+            <div class="row">
+                <div class="col-md-12">
+                    <table class="table-responsive table-bordered table-centered mgn-tbl-stripe text-white opacity-point-eight" style="width:100%;margin-top:2.0em;opacity:0.8;">
+                        <thead class="custom-matching-act-tbl-hd">
+                            <tr>
+                                <th class="pad-content-table-cells" style="width:80%">
+                                    <a href="#" id="projectReports" class="expando" data-body="bodyProjectReports" data-element="projectReports" data-bool="true">
+                                        collapse
+                                    </a>
+                                    <span class="margin-left-10">
+                                        Monthly Report
+                                    </span>
+                                </th>
+                                <th class="pad-content-table-cells all-in-line">
+                                    Date Updated
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody id="bodyProjectReports">
+                            <tr>
+                                <td class="pad-content-table-cells">
+                                    <a href="https://github.com/MGNCapstone/MGNCapstone.github.io/blob/master/DocumentPages/MonthlyReports/9-17-monthly-report.pdf"
+                                       target="_blank" class="text-white underline-text plain-page-link" style="text-decoration:underline">
+                                        Report - September 2017
+                                    </a>
+                                </td>
+                                <td class="pad-content-table-cells">
+                                    09/29/2017
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="pad-content-table-cells">
+                                    <a href="https://github.com/MGNCapstone/MGNCapstone.github.io/blob/master/DocumentPages/MonthlyReports/10-17-monthly-report.pdf"
+                                       target="_blank" class="text-white underline-text plain-page-link" style="text-decoration:underline">
+                                        Report - October 2017
+                                    </a>
+                                </td>
+                                <td class="pad-content-table-cells">
+                                    10/28/2017
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="pad-content-table-cells">
+                                    <a href="https://github.com/MGNCapstone/MGNCapstone.github.io/blob/master/DocumentPages/MonthlyReports/11-17-monthly-report.pdf"
+                                       target="_blank" class="text-white underline-text plain-page-link" style="text-decoration:underline">
+                                        Report - November 2017
+                                    </a>
+                                </td>
+                                <td class="pad-content-table-cells">
+                                    12/1/2017
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <table class="table-responsive table-bordered table-centered mgn-tbl-stripe text-white opacity-point-eight" style="width:100%;margin-top:60px;opacity:0.8;">
+                        <thead class="custom-matching-act-tbl-hd">
+                            <tr>
+                                <th class="pad-content-table-cells" style="width:80%">
+                                    <a href="#" id="projectStatus" class="expando" data-body="bodyProjectStatus" data-element="projectStatus" data-bool="true">
+                                        collapse
+                                    </a>
+                                    <span class="margin-left-10">
+                                        Project Item
+                                    </span>
+                                </th>
+                                <th class="pad-content-table-cells all-in-line">
+                                    Updated On
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody id="bodyProjectStatus">
+                            <tr>
+                                <td class="pad-content-table-cells">
+                                    We have met with our stakeholder and are working to align our goals with stakeholder expectation.
+                                </td>
+                                <td class="pad-content-table-cells">
+                                    09/18/2017
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="pad-content-table-cells">
+                                    <a href="https://github.com/MGNCapstone/MGNCapstone.github.io/blob/master/DocumentPages/System%20DIagrams/Google%20Home%20Response%20Architecture.jpg"
+                                       target="_blank" class="text-white underline-text plain-page-link">
+                                        Google Home Response Architecture
+                                    </a>
+                                </td>
+                                <td class="pad-content-table-cells">
+                                    10/10/2017
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="pad-content-table-cells">
+                                    <a href="https://github.com/MGNCapstone/MGNCapstone.github.io/blob/master/DocumentPages/System%20DIagrams/Google%20Home%20Response%20Architecture.xml"
+                                       target="_blank" class="text-white underline-text plain-page-link">
+                                        Google Home Response Architecture XML
+                                    </a>
+                                </td>
+                                <td class="pad-content-table-cells">
+                                    10/10/2017
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="pad-content-table-cells">
+                                    <a href="https://github.com/MGNCapstone/MGNCapstone.github.io/blob/master/DocumentPages/System%20DIagrams/Google%20Home%20Server%20Architecture.jpg"
+                                       target="_blank" class="text-white underline-text plain-page-link">
+                                        Google Home Server Architecture
+                                    </a>
+                                </td>
+                                <td class="pad-content-table-cells">
+                                    10/10/2017
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="pad-content-table-cells">
+                                    <a href="https://github.com/MGNCapstone/MGNCapstone.github.io/blob/master/DocumentPages/System%20DIagrams/Google%20Home%20Server%20Architecture.xml"
+                                       target="_blank" class="text-white underline-text plain-page-link">
+                                        Google Home Server Architecture XML
+                                    </a>
+                                </td>
+                                <td class="pad-content-table-cells">
+                                    10/10/2017
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="pad-content-table-cells">
+                                    <a href="https://github.com/MGNCapstone/MGNCapstone.github.io/blob/master/DocumentPages/CodeSegments/example-quiz-list.json"
+                                       target="_blank" class="text-white underline-text plain-page-link">
+                                        Example Quiz - Posting #1
+                                    </a>
+                                </td>
+                                <td class="pad-content-table-cells">
+                                    10/15/2017
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <table class="table-responsive table-bordered table-centered mgn-tbl-stripe text-white opacity-point-eight" style="width:100%;margin-top:60px;margin-bottom:7em !important;opacity:0.8;">
+                        <thead class="custom-matching-act-tbl-hd">
+                            <tr>
+                                <th class="pad-content-table-cells" style="width:80%">
+                                    <a href="#" id="classReports" class="expando" data-body="bodyClassReports" data-element="classReports" data-bool="true">
+                                        collapse
+                                    </a>
+                                    <span class="margin-left-10">
+                                        Class Assignment
+                                    </span>
+                                </th>
+                                <th class="pad-content-table-cells all-in-line">
+                                    Updated On
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody id="bodyClassReports">
+                            <tr>
+                                <td class="pad-content-table-cells">
+                                    <a href="https://github.com/MGNCapstone/MGNCapstone.github.io/blob/master/DocumentPages/RF%20Reports/RF1/Feasibility%20Report.pdf"
+                                       target="_blank" class="text-white underline-text plain-page-link">
+                                        Feasibility Report
+                                    </a>
+                                </td>
+                                <td class="pad-content-table-cells">
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="pad-content-table-cells">
+                                    <a href="https://github.com/MGNCapstone/MGNCapstone.github.io/blob/master/DocumentPages/RF%20Reports/RF2/SRS%20Report.pdf"
+                                       target="_blank" class="text-white underline-text plain-page-link">
+                                        Software Specification Report
+                                    </a>
+                                </td>
+                                <td class="pad-content-table-cells">
+                                    10/6/2017
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="pad-content-table-cells">
+                                    <a href="https://github.com/MGNCapstone/MGNCapstone.github.io/blob/master/DocumentPages/RF%20Reports/RF3/SAS%20Design%20Document.pdf"
+                                       target="_blank" class="text-white underline-text plain-page-link">
+                                        Software Architecture Specification Report 
+                                    </a>
+                                </td>
+                                <td class="pad-content-table-cells">
+                                    10/17/2017
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="pad-content-table-cells">
+                                    <a href="https://github.com/MGNCapstone/MGNCapstone.github.io/blob/master/DocumentPages/RF%20Reports/RF4/SDD%20Report.pdf"
+                                       target="_blank" class="text-white underline-text plain-page-link">
+                                        Software Detailed Design Report 
+                                    </a>
+                                </td>
+                                <td class="pad-content-table-cells">
+                                    10/31/2017
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="pad-content-table-cells">
+                                    <a href="https://github.com/MGNCapstone/MGNCapstone.github.io/blob/master/DocumentPages/RF%20Reports/RF5/OSS%20Selection%20Report.pdf"
+                                       target="_blank" class="text-white underline-text plain-page-link">
+                                        Open Source Software Selection Report
+                                    </a>
+                                </td>
+                                <td class="pad-content-table-cells">
+                                    11/14/2017
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+
+    <footer class="navbar navbar-fixed-bottom center-align footer-background text-white">
+        Indiana Univerity Southeast MGN Team
+        <br />
+        Joseph Blaine Olin, Michael Ryan Roark, William Benjamin Pister
+    </footer>
+
+</body>
+</html>
+
+<script src="https://code.jquery.com/jquery-1.9.1.min.js" type="text/javascript"></script>
+<script src="https://MGNCapstone.github.io/Scripts/action.js" type="text/javascript"></script>

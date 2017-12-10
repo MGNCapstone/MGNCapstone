@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body class="footer-background">
+    <nav class="navbar-inverse navbar-fixed-top footer-background" style="width:100%">
+        <div class="container footer-background width-100pct">
+            <div class="navbar-header visible-sm visible-xs">
+                <button id="toggle-btn" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#hamburger-collapse">
+                    <span class="sr-only">Toggle nav</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <!--Collect the nav links, forms, and other content for toggling-->
+            <div id="hamburger-collapse" class="collapsed navbar-collapse">
+                <ul class="navbar navbar-nav center-align">
+                    <li class="btn-group-vertical nav-pad-for-link center-align" style="display:block">
+
+                        <a href="https://MGNCapstone.github.io/Views/mgnindex.html" class="center-align nav-font-size-link">
+                            <span class="glyphicon glyphicon-home" style="color:white;margin-right:4px"></span>Home
+                        </a>
+                    </li>
+                    <li class="nav-pad-for-btn center-align" style="display:block">
+                        <button id="P445-home" class="btn btn-default margin-left-10 mgn-nav" data-url="http://ada.ius.edu/~P445" data-openat="self">IUS Capstone Home</button>
+                    </li>
+                    <li class="nav-pad-for-btn center-align" style="display:block">
+                        <button id="group-logs" class="btn btn-default margin-left-10 mgn-nav" data-url="https://trello.com/b/XV5Bl5ft/team-mgn-project-log" data-openat="blank">Team Logs</button>
+                    </li>
+                    <li class="nav-pad-for-btn center-align" style="display:block">
+                        <button id="gantt-chart" class="btn btn-default margin-left-10 mgn-nav" data-url="https://MGNCapstone.github.io/Views/gantt.html" data-openat="self">Gantt Chart</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="row phased-photo set-page-top scroll-y-allow">
+        <div class="col-lg-12">
+
+        </div>
+
+        <div class="col-lg-12">
+            <div class="col-lg-12 pad-content-table-cells custom-faux-table-head">
+                <a id="timeSheetHead" class="expando all-in-line" href="#" data-body="timeSheet" data-element="timeSheetHead" data-bool="true">
+                    collapse
+                </a>
+                <span class="text-white margin-left-10">
+                    Time Sheets
+                </span>
+            </div>
+
+            <iframe id="timeSheet" style="width:100%;min-height:50em" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRpVlRYwkaVK6spwLDAKKtaJJB4Euzks0k_zfG8kaW3YqtCblRyJKwVLsWZRM92SPJ0MwTJgrEO4owJ/pubhtml?widget=true&amp;headers=false"></iframe>
+        </div>
+    </div>
+</body>
+</html>

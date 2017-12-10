@@ -14,7 +14,7 @@ body{
         display:inline;
     }
     .expando{
-        font-size:0.6em;
+        font-size:1.0em;
     }
     
     .resume-click{
@@ -30,7 +30,7 @@ body{
         display:none;
     }
     .expando{
-        font-size:0.9em;
+        font-size:1.0em;
     }
 }
 

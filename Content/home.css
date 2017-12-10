@@ -225,6 +225,11 @@ body{
   background-color: #858585;
 }
 
+ /***  o   ***/
+.opacity-point-eight{
+    opacity:0.8;
+}
+
  /***  p   ***/
 .plain-page-link{
     color:#ffffff;

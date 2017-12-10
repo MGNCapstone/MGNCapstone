@@ -30,12 +30,12 @@ $(function () {
         
         if (isVisible) {
             $('#' + bodyId).hide(500);
-            $('#' + thisId).html('expand');
+            $('#' + thisId).html('+');
             $(this).data('bool', false);
         }
         else {
             $('#' + bodyId).show(500);
-            $('#' + thisId).html('collapse');
+            $('#' + thisId).html('-collapse');
             $(this).data('bool', true);
         }
     });

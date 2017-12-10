@@ -114,6 +114,10 @@ body{
     color:#ffffff;
 }
 
+.body-scroll-none{
+    overflow-y:hidden !important;
+}
+
  /***  c   ***/
 .custom-faux-table-head{
     border:2px solid #ffffff;
@@ -196,7 +200,7 @@ body{
 }
 
 .Home-Manifesto{
-	font:0.9em Arial;
+	font:1.0em Arial;
 }
 
 .Home-SubTitle{
@@ -289,6 +293,15 @@ body{
  /***  s   ***/
 .subtitle{
 	display:block;
+}
+
+.scroll-y-allow{
+    overflow-y:scroll;
+}
+
+.set-page-top{
+    top:50px;
+    left:0px;
 }
 
  /***  t   ***/

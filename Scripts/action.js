@@ -35,7 +35,7 @@ $(function () {
         }
         else {
             $('#' + bodyId).show(500);
-            $('#' + thisId).html('-collapse');
+            $('#' + thisId).html('-');
             $(this).data('bool', true);
         }
     });

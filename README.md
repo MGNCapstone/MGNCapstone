@@ -1,1 +1,1 @@
-# MGNCapstoneo
+# MGNCapstone
